@@ -271,42 +271,5 @@
                 }
             ]
         }
-    },
-    "doctors": [
-        {
-            "id": 1,
-            "name": "Tamer",
-            "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
-        },
-        {
-            "id": 2,
-            "name": "Ahmed",
-            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
-        },
-        {
-            "id": 3,
-            "name": "Raghda",
-            "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
-        },
-        {
-            "id": 4,
-            "name": "Sara",
-            "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
-        },
-        {
-            "id": 5,
-            "name": "Abdulrahman",
-            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
-        },
-        {
-            "id": 6,
-            "name": "Tamer",
-            "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
-        },
-        {
-            "id": 7,
-            "name": "Abdulrahman",
-            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
-        }
-    ]
+    }
 }
