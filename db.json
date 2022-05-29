@@ -1,0 +1,312 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Tamer",
+            "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
+        },
+        {
+            "id": 3,
+            "name": "Raghda",
+            "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
+        },
+        {
+            "id": 2,
+            "name": "Ahmed",
+            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+        }
+    ],
+    "visits": {
+        "day": "2/5/2022",
+        "visits": [
+            {
+                "id": 1,
+                "from": {
+                    "id": 1,
+                    "name": "Tamer",
+                    "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
+                },
+                "to": {
+                    "id": 2,
+                    "name": "Ahmed",
+                    "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+                },
+                "serviceName": "Service Name",
+                "status": "COMPLETED",
+                "time": "2/5/2022 5:00pm"
+            },
+            {
+                "id": 2,
+                "from": {
+                    "id": 3,
+                    "name": "Raghda",
+                    "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
+                },
+                "to": {
+                    "id": 2,
+                    "name": "Ahmed",
+                    "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+                },
+                "serviceName": "Service Name",
+                "status": "PENDING",
+                "time": "3/5/2022 6:00pm"
+            }
+        ]
+    },
+    "schedule": [
+        {
+            "day": "2/5/2022",
+            "visits": [
+                {
+                    "id": 3,
+                    "from": {
+                        "id": 1,
+                        "name": "Tamer",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
+                    },
+                    "to": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+                    },
+                    "serviceName": "Service Name",
+                    "status": "COMPLETED",
+                    "time": "2/5/2022 5:00pm"
+                },
+                {
+                    "id": 4,
+                    "from": {
+                        "id": 3,
+                        "name": "Raghda",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
+                    },
+                    "to": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+                    },
+                    "serviceName": "Service Name",
+                    "status": "PENDING",
+                    "time": "3/5/2022 6:00pm"
+                }
+            ]
+        },
+        {
+            "day": "5/5/2022",
+            "visits": [
+                {
+                    "id": 5,
+                    "from": {
+                        "id": 3,
+                        "name": "Raghda",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
+                    },
+                    "to": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+                    },
+                    "serviceName": "Service Name",
+                    "status": "PENDING",
+                    "time": "3/5/2022 6:00pm"
+                }
+            ]
+        }
+    ],
+    "waitingRoom": {
+        "inVisit": {
+            "id": 9,
+            "from": {
+                "id": 1,
+                "name": "Tamer",
+                "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png",
+                "mobile": "0101623066",
+                "email": "tamer@gmail.com",
+                "age": 30,
+                "gender": "male"
+            },
+            "to": {
+                "id": 2,
+                "name": "Ahmed",
+                "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png",
+                "mobile": "01019123585",
+                "email": "Ahmed@gmail.com",
+                "age": 25,
+                "gender": "male"
+            },
+            "serviceName": "Service Name",
+            "status": "COMPLETED",
+            "time": "2/5/2022 5:00pm"
+        },
+        "scheduled": {
+            "day": "2/5/2022",
+            "visits": [
+                {
+                    "id": 2,
+                    "from": {
+                        "id": 1,
+                        "name": "Tamer",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png",
+                        "mobile": "0101622566",
+                        "email": "tamer@gmail.com",
+                        "age": 28,
+                        "gender": "male"
+                    },
+                    "to": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png",
+                        "mobile": "01019123585",
+                        "email": "Ahmed@gmail.com",
+                        "age": 25,
+                        "gender": "male"
+                    },
+                    "serviceName": "Service Name",
+                    "status": "Check-In",
+                    "time": "2/5/2022 5:00pm"
+                },
+                {
+                    "id": 6,
+                    "to": {
+                        "id": 3,
+                        "name": "Raghda",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png",
+                        "mobile": "01019667670",
+                        "email": "raghda@gmail.com",
+                        "age": 35,
+                        "gender": "female"
+                    },
+                    "from": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png",
+                        "mobile": "01019123585",
+                        "email": "Ahmed@gmail.com",
+                        "age": 25,
+                        "gender": "male"
+                    },
+                    "serviceName": "Service Name",
+                    "status": "Check-In",
+                    "time": "3/5/2022 6:00pm"
+                }
+            ]
+        },
+        "completed": {
+            "day": "2/5/2022",
+            "visits": [
+                {
+                    "id": 5,
+                    "from": {
+                        "id": 1,
+                        "name": "Tamer",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png",
+                        "mobile": "0101622566",
+                        "email": "tamer@gmail.com",
+                        "age": 38,
+                        "gender": "male"
+                    },
+                    "to": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png",
+                        "mobile": "01019123585",
+                        "email": "Ahmed@gmail.com",
+                        "age": 25,
+                        "gender": "male"
+                    },
+                    "serviceName": "Service Name",
+                    "time": "2/5/2022 5:00pm"
+                },
+                {
+                    "id": 4,
+                    "to": {
+                        "id": 3,
+                        "name": "Raghda",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png",
+                        "mobile": "01019667670",
+                        "email": "raghda@gmail.com",
+                        "age": 25,
+                        "gender": "female"
+                    },
+                    "from": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png",
+                        "mobile": "01019612358",
+                        "email": "Ahmed@gmail.com",
+                        "age": 25,
+                        "gender": "male"
+                    },
+                    "serviceName": "Service Name",
+                    "time": "3/5/2022 6:00pm"
+                }
+            ]
+        },
+        "checkedIn": {
+            "day": "2/5/2022",
+            "visits": [
+                {
+                    "id": 3,
+                    "from": {
+                        "id": 1,
+                        "name": "Tamer",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png",
+                        "mobile": "0101622566",
+                        "email": "tamer@gmail.com",
+                        "age": 25,
+                        "gender": "male"
+                    },
+                    "to": {
+                        "id": 2,
+                        "name": "Ahmed",
+                        "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png",
+                        "mobile": "01019123585",
+                        "email": "Ahmed@gmail.com",
+                        "age": 25,
+                        "gender": "male"
+                    },
+                    "serviceName": "Service Name",
+                    "status": "In-Visit",
+                    "time": "2/5/2022 5:00pm"
+                }
+            ]
+        }
+    },
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Tamer",
+            "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
+        },
+        {
+            "id": 2,
+            "name": "Ahmed",
+            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+        },
+        {
+            "id": 3,
+            "name": "Raghda",
+            "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
+        },
+        {
+            "id": 4,
+            "name": "Sara",
+            "avatar": "https://demo.themesberg.com/windster/images/users/lana-byrd.png"
+        },
+        {
+            "id": 5,
+            "name": "Abdulrahman",
+            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+        },
+        {
+            "id": 6,
+            "name": "Tamer",
+            "avatar": "https://demo.themesberg.com/windster/images/users/michael-gough.png"
+        },
+        {
+            "id": 7,
+            "name": "Abdulrahman",
+            "avatar": "https://demo.themesberg.com/windster/images/users/thomas-lean.png"
+        }
+    ]
+}
